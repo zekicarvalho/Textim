@@ -1,0 +1,84 @@
+/*Defaults*/
+body, html {
+	margin: 0;
+	height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+button {
+  -webkit-app-region: no-drag;
+	outline: none;
+	border: none;
+}
+.clear {
+	clear: both;
+}
+/*Topbar*/
+.topbar {
+	height: 30px;
+	width:100%;
+	float: left;
+	background: rgb(143, 154, 158);
+	margin-bottom: 20px;
+	position: absolute;
+	z-index: 99;
+}
+.topbar-left {
+	top: 0;
+	left: 0;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+.topbar .title {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 0;
+	margin: 7px 0;
+	color: white;
+	font-size: 16px;
+}
+.topbar-right {
+	top: 0;
+	right: 0;
+	float: right;
+	position: relative;
+	z-index: 1;
+}
+.topbar-btn {
+	height: 30px;
+	background: #0D91C3;
+	color: white;
+}
+.topbar-btn:hover {
+	background: #0c83b0;
+	cursor: pointer;
+}
+.topbar-btn:active {
+	background: #095e7e;
+	cursor: pointer;
+}
+
+/*Toolbar*/
+#toolbar{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	width: 100%;
+	margin-top: 30px;
+}
+
+/*Editor*/
+#editor {
+	width: 100%;
+	height: 85%;
+	overflow-y: auto;
+	color: rgb(89, 89, 89);
+	font-size: 16px;
+	margin-top: 85px;
+	padding: 0 10px 0 25px;
+	position: relative;
+	display: block;
+}
