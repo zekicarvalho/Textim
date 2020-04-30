@@ -17,7 +17,7 @@
     "electron-packager": "^7.0.1"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "quill": "^0.20.1"
   }
 }
